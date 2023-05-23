@@ -9,23 +9,51 @@
 /* Begin PBXBuildFile section */
 		810332D82A1390DA00390B7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810332D72A1390DA00390B7D /* AppDelegate.swift */; };
 		810332DA2A1390DA00390B7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810332D92A1390DA00390B7D /* SceneDelegate.swift */; };
-		810332DC2A1390DA00390B7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810332DB2A1390DA00390B7D /* ViewController.swift */; };
-		810332DF2A1390DA00390B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810332DD2A1390DA00390B7D /* Main.storyboard */; };
-		810332E22A1390DA00390B7D /* StaffX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 810332E02A1390DA00390B7D /* StaffX.xcdatamodeld */; };
 		810332E42A1390DB00390B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810332E32A1390DB00390B7D /* Assets.xcassets */; };
 		810332E72A1390DB00390B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810332E52A1390DB00390B7D /* LaunchScreen.storyboard */; };
+		810332F32A13D11500390B7D /* EmployeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810332F22A13D11500390B7D /* EmployeesViewController.swift */; };
+		810333032A1417CB00390B7D /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810333022A1417CB00390B7D /* EmployeeTableViewCell.swift */; };
+		810333052A141A7600390B7D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 810333042A141A7600390B7D /* GoogleService-Info.plist */; };
+		810333082A141AFE00390B7D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 810333072A141AFE00390B7D /* FirebaseFirestore */; };
+		8103330A2A141AFE00390B7D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 810333092A141AFE00390B7D /* FirebaseFirestoreSwift */; };
+		8103330C2A141E6400390B7D /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103330B2A141E6400390B7D /* FirestoreManager.swift */; };
+		8103330E2A1423F400390B7D /* EmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103330D2A1423F400390B7D /* EmployeeModel.swift */; };
+		810333102A14240000390B7D /* DepartmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103330F2A14240000390B7D /* DepartmentModel.swift */; };
+		8170CB102A1628EC000EC80D /* AddUpdateEmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8170CB0F2A1628EC000EC80D /* AddUpdateEmployeeView.swift */; };
+		8191C7382A1904C800386342 /* EmployeesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8191C7372A1904C800386342 /* EmployeesManager.swift */; };
+		8191C73C2A19246600386342 /* DepartmentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8191C73B2A19246600386342 /* DepartmentsViewModel.swift */; };
+		8191C74B2A1A3CAC00386342 /* EmployeesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8191C74A2A1A3CAC00386342 /* EmployeesViewModel.swift */; };
+		8191C74D2A1A466000386342 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8191C74C2A1A466000386342 /* MainTabBarViewController.swift */; };
+		8191C74F2A1A470800386342 /* DepartmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8191C74E2A1A470800386342 /* DepartmentsViewController.swift */; };
+		8191C7532A1A575E00386342 /* DepartmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8191C7522A1A575E00386342 /* DepartmentTableViewCell.swift */; };
+		819DF1D12A156B3B001A3269 /* EmployeeDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819DF1D02A156B3B001A3269 /* EmployeeDetailedView.swift */; };
+		819DF1D52A156C16001A3269 /* EmployeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819DF1D42A156C16001A3269 /* EmployeeDetailViewController.swift */; };
+		819DF1D72A156FAF001A3269 /* AddUpdateEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819DF1D62A156FAF001A3269 /* AddUpdateEmployeeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		810332D42A1390DA00390B7D /* StaffX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaffX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		810332D72A1390DA00390B7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		810332D92A1390DA00390B7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		810332DB2A1390DA00390B7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		810332DE2A1390DA00390B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		810332E12A1390DA00390B7D /* StaffX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StaffX.xcdatamodel; sourceTree = "<group>"; };
 		810332E32A1390DB00390B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		810332E62A1390DB00390B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		810332E82A1390DB00390B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810332F22A13D11500390B7D /* EmployeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesViewController.swift; sourceTree = "<group>"; };
+		810333022A1417CB00390B7D /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
+		810333042A141A7600390B7D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8103330B2A141E6400390B7D /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		8103330D2A1423F400390B7D /* EmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModel.swift; sourceTree = "<group>"; };
+		8103330F2A14240000390B7D /* DepartmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentModel.swift; sourceTree = "<group>"; };
+		8170CB0F2A1628EC000EC80D /* AddUpdateEmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateEmployeeView.swift; sourceTree = "<group>"; };
+		8191C7372A1904C800386342 /* EmployeesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesManager.swift; sourceTree = "<group>"; };
+		8191C73B2A19246600386342 /* DepartmentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsViewModel.swift; sourceTree = "<group>"; };
+		8191C74A2A1A3CAC00386342 /* EmployeesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesViewModel.swift; sourceTree = "<group>"; };
+		8191C74C2A1A466000386342 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		8191C74E2A1A470800386342 /* DepartmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsViewController.swift; sourceTree = "<group>"; };
+		8191C7522A1A575E00386342 /* DepartmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentTableViewCell.swift; sourceTree = "<group>"; };
+		819DF1D02A156B3B001A3269 /* EmployeeDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailedView.swift; sourceTree = "<group>"; };
+		819DF1D42A156C16001A3269 /* EmployeeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailViewController.swift; sourceTree = "<group>"; };
+		819DF1D62A156FAF001A3269 /* AddUpdateEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateEmployeeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810333082A141AFE00390B7D /* FirebaseFirestore in Frameworks */,
+				8103330A2A141AFE00390B7D /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +88,85 @@
 		810332D62A1390DA00390B7D /* StaffX */ = {
 			isa = PBXGroup;
 			children = (
+				810332F72A13D14700390B7D /* Views */,
+				810332F62A13D13F00390B7D /* ViewControllers */,
+				810332F52A13D13600390B7D /* ViewModels */,
+				810332F42A13D13100390B7D /* Models */,
+				810333112A14240800390B7D /* Managers */,
 				810332D72A1390DA00390B7D /* AppDelegate.swift */,
 				810332D92A1390DA00390B7D /* SceneDelegate.swift */,
-				810332DB2A1390DA00390B7D /* ViewController.swift */,
-				810332DD2A1390DA00390B7D /* Main.storyboard */,
 				810332E32A1390DB00390B7D /* Assets.xcassets */,
 				810332E52A1390DB00390B7D /* LaunchScreen.storyboard */,
 				810332E82A1390DB00390B7D /* Info.plist */,
-				810332E02A1390DA00390B7D /* StaffX.xcdatamodeld */,
+				810333042A141A7600390B7D /* GoogleService-Info.plist */,
 			);
 			path = StaffX;
+			sourceTree = "<group>";
+		};
+		810332F42A13D13100390B7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8103330F2A14240000390B7D /* DepartmentModel.swift */,
+				8103330D2A1423F400390B7D /* EmployeeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		810332F52A13D13600390B7D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8191C74A2A1A3CAC00386342 /* EmployeesViewModel.swift */,
+				8191C73B2A19246600386342 /* DepartmentsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		810332F62A13D13F00390B7D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8191C74C2A1A466000386342 /* MainTabBarViewController.swift */,
+				8191C7502A1A4B8E00386342 /* Employees */,
+				8191C7512A1A4B9D00386342 /* Departments */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		810332F72A13D14700390B7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8191C7522A1A575E00386342 /* DepartmentTableViewCell.swift */,
+				810333022A1417CB00390B7D /* EmployeeTableViewCell.swift */,
+				819DF1D02A156B3B001A3269 /* EmployeeDetailedView.swift */,
+				8170CB0F2A1628EC000EC80D /* AddUpdateEmployeeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		810333112A14240800390B7D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8191C7372A1904C800386342 /* EmployeesManager.swift */,
+				8103330B2A141E6400390B7D /* FirestoreManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8191C7502A1A4B8E00386342 /* Employees */ = {
+			isa = PBXGroup;
+			children = (
+				810332F22A13D11500390B7D /* EmployeesViewController.swift */,
+				819DF1D42A156C16001A3269 /* EmployeeDetailViewController.swift */,
+				819DF1D62A156FAF001A3269 /* AddUpdateEmployeeViewController.swift */,
+			);
+			path = Employees;
+			sourceTree = "<group>";
+		};
+		8191C7512A1A4B9D00386342 /* Departments */ = {
+			isa = PBXGroup;
+			children = (
+				8191C74E2A1A470800386342 /* DepartmentsViewController.swift */,
+			);
+			path = Departments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +185,10 @@
 			dependencies = (
 			);
 			name = StaffX;
+			packageProductDependencies = (
+				810333072A141AFE00390B7D /* FirebaseFirestore */,
+				810333092A141AFE00390B7D /* FirebaseFirestoreSwift */,
+			);
 			productName = StaffX;
 			productReference = 810332D42A1390DA00390B7D /* StaffX.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +217,9 @@
 				Base,
 			);
 			mainGroup = 810332CB2A1390DA00390B7D;
+			packageReferences = (
+				810333062A141AFE00390B7D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 810332D52A1390DA00390B7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +236,7 @@
 			files = (
 				810332E72A1390DB00390B7D /* LaunchScreen.storyboard in Resources */,
 				810332E42A1390DB00390B7D /* Assets.xcassets in Resources */,
-				810332DF2A1390DA00390B7D /* Main.storyboard in Resources */,
+				810333052A141A7600390B7D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +247,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				810332DC2A1390DA00390B7D /* ViewController.swift in Sources */,
 				810332D82A1390DA00390B7D /* AppDelegate.swift in Sources */,
+				8103330C2A141E6400390B7D /* FirestoreManager.swift in Sources */,
+				8191C73C2A19246600386342 /* DepartmentsViewModel.swift in Sources */,
+				8103330E2A1423F400390B7D /* EmployeeModel.swift in Sources */,
+				8191C74F2A1A470800386342 /* DepartmentsViewController.swift in Sources */,
+				8191C74B2A1A3CAC00386342 /* EmployeesViewModel.swift in Sources */,
+				810333102A14240000390B7D /* DepartmentModel.swift in Sources */,
+				8191C7382A1904C800386342 /* EmployeesManager.swift in Sources */,
 				810332DA2A1390DA00390B7D /* SceneDelegate.swift in Sources */,
-				810332E22A1390DA00390B7D /* StaffX.xcdatamodeld in Sources */,
+				8191C7532A1A575E00386342 /* DepartmentTableViewCell.swift in Sources */,
+				8191C74D2A1A466000386342 /* MainTabBarViewController.swift in Sources */,
+				819DF1D12A156B3B001A3269 /* EmployeeDetailedView.swift in Sources */,
+				810332F32A13D11500390B7D /* EmployeesViewController.swift in Sources */,
+				810333032A1417CB00390B7D /* EmployeeTableViewCell.swift in Sources */,
+				8170CB102A1628EC000EC80D /* AddUpdateEmployeeView.swift in Sources */,
+				819DF1D72A156FAF001A3269 /* AddUpdateEmployeeViewController.swift in Sources */,
+				819DF1D52A156C16001A3269 /* EmployeeDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		810332DD2A1390DA00390B7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				810332DE2A1390DA00390B7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		810332E52A1390DB00390B7D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,9 +407,10 @@
 				INFOPLIST_FILE = StaffX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +418,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danyloternovoi.StaffX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,9 +439,10 @@
 				INFOPLIST_FILE = StaffX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +450,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danyloternovoi.StaffX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,18 +482,29 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		810332E02A1390DA00390B7D /* StaffX.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				810332E12A1390DA00390B7D /* StaffX.xcdatamodel */,
-			);
-			currentVersion = 810332E12A1390DA00390B7D /* StaffX.xcdatamodel */;
-			path = StaffX.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		810333062A141AFE00390B7D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
 		};
-/* End XCVersionGroup section */
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		810333072A141AFE00390B7D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 810333062A141AFE00390B7D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		810333092A141AFE00390B7D /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 810333062A141AFE00390B7D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 810332CC2A1390DA00390B7D /* Project object */;
 }
