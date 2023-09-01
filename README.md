@@ -1,5 +1,5 @@
 # StaffX
-Swift, UIkit, Firebase. ONIX 2023 internship test task.
+Swift, UIkit, Firebase, Combine. ONIX 2023 internship test task.
 
 
 [ONIX academy iOS hard level internship](https://onix.academy/courses/ios-internship/)
